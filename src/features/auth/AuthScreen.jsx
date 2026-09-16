@@ -69,8 +69,8 @@ export default function AuthScreen({ onLogin }) {
           >
             <span className="text-2xl">⚡</span>
           </div>
-          <h1 className="text-3xl font-bold text-white tracking-tight font-display">NostrRide</h1>
-          <p className="text-cyan-400/60 text-sm mt-1 tracking-wide">DECENTRALIZED RIDESHARING</p>
+          <h1 className="text-3xl font-bold text-white tracking-tight font-display">3 WORD PIN RIDE</h1>
+          <p className="text-cyan-400/60 text-sm mt-1 tracking-wide">Ridesharing that pays drivers 100%</p>
         </div>
 
         {/* Mode switch */}
@@ -114,7 +114,7 @@ export default function AuthScreen({ onLogin }) {
           )}
 
           <p className="text-white/20 text-xs text-center leading-relaxed mt-4">
-            Keys are real Nostr keys generated/handled locally. Nothing is sent to a server. Your nsec is your password — keep it secret.
+            Your nsec is your password — keep it secret.
           </p>
 
           {/* Relays — collapsed by default */}
